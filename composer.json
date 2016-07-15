@@ -1,0 +1,8 @@
+{
+  "name": "acquia/blt",
+  "description": "BLT",
+  "license": "GPL-2.0",
+  "require": {
+    "phing/phing": "2.*"
+  }
+}
