@@ -19,6 +19,9 @@
   "scripts": {
     "post-install-cmd": [
       "AcquiaBLT\\AcquiaBLTInstall::postInstall"
+    ],
+    "post-package-install": [
+      "AcquiaBLT\\AcquiaBLTInstall::postPackageInstall"
     ]
   }
 }
