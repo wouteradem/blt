@@ -2,11 +2,12 @@
 
 namespace AcquiaBLT;
 
+use ComposerScriptEvent;
 
 class AcquiaBLTInstall
 {
 
-  public function postInstall() {
+  public static function postInstall(Event $event) {
     echo "Post Install function \n";
   }
 }

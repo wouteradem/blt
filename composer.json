@@ -19,9 +19,6 @@
   "scripts": {
     "post-install-cmd": [
       "AcquiaBLT\\AcquiaBLTInstall::postInstall"
-    ],
-    "post-package-install": [
-      "./bolt.sh"
     ]
   }
 }
