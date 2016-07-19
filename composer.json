@@ -22,6 +22,9 @@
     ],
     "post-package-install": [
       "AcquiaBLT\\AcquiaBLTInstall::postPackageInstall"
+    ],
+    "post-root-package-install": [
+      "AcquiaBLT\\AcquiaBLTInstall::postRootPackageInstall"
     ]
   }
 }
